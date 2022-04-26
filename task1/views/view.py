@@ -5,7 +5,10 @@ def main():
 
     lista_ligada = LinkedList()
     while True:
-        comandos = input().split()
+        try:
+            comandos = input().split()
+        except EOFError:
+            return
         if comandos[0] == "RPI":
             lista_ligada.insert_at_start(comandos[1])
             lista_ligada.traverse_list()
@@ -32,7 +35,7 @@ def main():
         elif comandos[0] == "EPE":
             resposta = lista_ligada.start_node.item
             lista_ligada.delete_at_start()
-            print(f"O país {resposta} foi eliminado.")
+            print(f"O país {resposta} foi eliminado da lista.")
         elif comandos[0] == "EUE":
             elemento = lista_ligada.get_last_node()
             lista_ligada.delete_at_end()
