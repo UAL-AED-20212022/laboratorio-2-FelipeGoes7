@@ -14,6 +14,8 @@
 #EUE - Eliminar o úkltimo país da lista.  PARÂMETROS A SEREM INSERIDOS NO TERMINAL: EUE
 #EP - Eliminar um determinado país da lista.  PARÂMETROS A SEREM INSERIDOS NO TERMINAL: EP nome_do_país
 
+#Universidade Autonoma de Lisboa
+
 #AUTOR: FELIPE GOES MAT.30009484 ESTUDANTE DE ENGENHARIA DE INFORMÁTICA
 
 
