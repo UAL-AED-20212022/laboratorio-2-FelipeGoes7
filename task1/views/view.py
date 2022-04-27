@@ -29,7 +29,7 @@ def main():
             print(f"O número de elementos são {resposta}.")
         elif comandos[0] == "VP":
             if lista_ligada.search_item(comandos[1]) == True:
-                print(f"O pais {comandos[1]} encontra-se na lista.")
+                print(f"O país {comandos[1]} encontra-se na lista.")
             else:
                 print(f"O país {comandos[1]} não se encontra na lista.")
         elif comandos[0] == "EPE":
